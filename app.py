@@ -1,7 +1,7 @@
 """
 API - é um lugar para disponibilizar recursos e/ou funcionalidades
 
-1. Objetivo - Criar uma API que disponibliliza aconsulta , criação , edição e exclusão de livros.
+1. Objetivo - Criar uma API que disponibliliza consulta , criação , edição e exclusão de livros.
 
 2. URL base - localhost
 
@@ -13,6 +13,9 @@ API - é um lugar para disponibilizar recursos e/ou funcionalidades
 
 4. Quais recursos - Livros
 """
+__version__ = "0.1.0"
+__author__ = "Gabriel Victor"
+__license__ = "Unlincese"
 
 from flask import Flask , jsonify , request
 
